@@ -96,8 +96,8 @@ li {
 
 footer {
   display: flex;
-  flex-direction: column;    
-  justify-content: center;    
-  align-items: center;         
+  justify-content: center; /* centro horizontal */
+  align-items: center;     /* centro vertical */
   text-align: center;
 }
+
