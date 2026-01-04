@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "console";
+  src: local("JetBrains Mono"), local("Fira Code"), local("Consolas"), monospace;
+}
+
+:root {
+  --bg: #000;
+  --fg: #eaeaea;
+  --accent: #c9211e;
+  --muted: #777;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "console", monospace;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.logo-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.logo-header img {
+  width: 96px;
+}
+
+.logo-text {
+  margin-top: 0.4rem;
+  letter-spacing: 0.4em;
+  font-size: 0.9rem;
+  color: var(--accent);
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.post-card {
+  width: 100%;
+  padding: 1.2rem;
+  border: 1px solid var(--accent);
+  text-decoration: none;
+  color: var(--fg);
+  text-align: center;
+}
+
+.post-title {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.post-author {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+/* MARKDOWN STYLES — CLAVE */
+
+article, .container > :not(header):not(section) {
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  color: var(--accent);
+  margin-top: 2.5rem;
+}
+
+p {
+  margin: 1.2rem 0;
+}
+
+ul {
+  margin-left: 1.5rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+  font-size: 0.75rem;
+  color: var(--muted);
+}

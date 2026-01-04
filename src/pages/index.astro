@@ -1,0 +1,21 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const posts = await Astro.glob("./blog/*.md");
+---
+<BaseLayout title="QVRX">
+
+  <header class="logo-header">
+    <img src="/favicon.png" alt="QVRX logo" />
+    <span class="logo-text">QVRX</span>
+  </header>
+
+  <section class="posts">
+    {posts.map(post => (
+      <a class="post-card" href={post.url}>
+        <span class="post-title">{post.frontmatter.title}</span>
+        <span class="post-author">by {post.frontmatter.author}</span>
+      </a>
+    ))}
+  </section>
+
+</BaseLayout>
