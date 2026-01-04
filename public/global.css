@@ -102,8 +102,9 @@ footer {
 }
 
 footer .brand {
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: 500;
+  color: #888; 
 }
 
 footer .copyright {
