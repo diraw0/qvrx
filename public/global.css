@@ -96,8 +96,8 @@ li {
 
 footer {
   display: flex;
-  justify-content: space-between;
-  margin-top: 6rem;
-  font-size: 0.75rem;
-  color: var(--muted);
+  flex-direction: column;    
+  justify-content: center;    
+  align-items: center;         
+  text-align: center;
 }
