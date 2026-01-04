@@ -4,6 +4,8 @@ title: Whats is QVRX?
 author: SysAdmin
 ---
 
+#QVRX
+
 This first entry establishes the editorial direction of QVRX.
 
 QVRX is built as a technical blog with a clear objective: to document knowledge, systems, and reasoning processes in a structured and verifiable way. The platform does not aim to entertain, persuade, or follow trends. Its purpose is to record analysis, experimentation, and conclusions derived from direct work with technology.
