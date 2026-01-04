@@ -2,6 +2,7 @@
 layout: ../../layouts/BaseLayout.astro
 title: OPSEC in the Modern Era
 author: SysAdmin
+date: 2026-01-4
 ---
 # OPSEC in the Modern Era: Why Almost Everyone Is Leaking More Than They Think
 
